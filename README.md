@@ -6,7 +6,7 @@ download the zip and extract the files
 
 
 
-frontend
+_______________________________________________________________frontend______________________________________________
 
 cd client
 npm start
@@ -14,7 +14,7 @@ npm start
 
 In new Terminal
 
-backend
+_______________________________________________________________backend________________________________________________
 
 cd server
 nodemon index.js
