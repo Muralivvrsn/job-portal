@@ -6,6 +6,10 @@ download the zip and extract the files
 
 
 
+download the required modules...
+npm install
+
+
 _______________________________________________________________frontend______________________________________________
 
 cd client
