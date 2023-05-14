@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.card {
+  max-width: 600px;
+  min-height: 300px;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.margin-auto{
+  margin: auto;
+}
+.home{
+  max-width: 600px;
+  height: 80vh;
+  overflow-x: hidden;
+  padding: 10px;
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
+  margin: auto;
+}
+::-webkit-scrollbar{
+  width: 0px;
+}
+.card-body {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+}
+
+.hire {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.icon {
+  color: green;
+  margin-right: 6px;
+}
+
+.title,
+.company {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px 0;
+}
+.title {
+  font-size: 1.5rem;
+}
+.company {
+  font-size: 1rem;
+  color: gray;
+}
+.work {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  box-shadow: none;
+  padding-left: 0;
+}
+.details {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.dot {
+  font-size: large;
+  margin-top: 15px;
+}
+
+
+.footer {
+  margin-top: 30px;
+  border-top: 1px solid rgb(221, 221, 221);
+  display: flex;
+  justify-content: right;
+}
+.ic {
+  margin: 0;
+  color: black;
+}
+
+
+/* pagination */
+
+.pagination-container {
+  position: fixed;
+  z-index: 8888;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+li{
+  list-style: none;
+}
+
+
+.pagination-break {
+  /* Your styles for the break element */
+  color: blue;
+}
+
+
+
+
+.body{
+  width: 700px;
+  height: fit-content;
+  margin: auto;
+  padding: 20px;
+  word-wrap: break-word;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.description{
+  letter-spacing: 1px;
+  margin: 50px 10px;
+  word-wrap: 2px;
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  line-height:2vmax;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 20px 5px 5px 10px;
+  cursor: pointer;
+  font-family: 'Comfortaa', cursive;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#apply-btn a {
+  color: white;
+}
+#apply-btn{
+  background-color: #12c9ff;
+}
+#view-btn a {
+  color: #12c9ff;
+}
+.pagination-page {
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.pagination-active {
+  background-color: #12c9ff;
+}
+.pagination-page a{
+  color: #12c9ff;
+}
+.pagination-active a{
+  color: white;
+}
+
+
+.pagination-next, .pagination-previous{
+  cursor: pointer;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #12c9ff;
+}
+.pagination-previous a, .pagination-next a{
+  color: white;
+  
+}
